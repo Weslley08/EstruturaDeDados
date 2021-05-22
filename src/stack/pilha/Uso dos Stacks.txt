@@ -1,0 +1,14 @@
+    Classificar uma pilha usando recursão
+	Dada uma pilha, vamos classificar usando recursão. 
+	O uso de qualquer construção de loop 
+	como while, for... etc não é permitido.
+	Só podemos usar as seguintes funções ADT na Pilha S:
+	
+	is_empty (S): Testa se a pilha está vazia ou não.
+	
+	push (S): Adiciona um novo elemento à pilha.
+	
+	pop (S): Remove o elemento superior da pilha.
+	
+	top (S): Retorna o valor do elemento superior.
+	
