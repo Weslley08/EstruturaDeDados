@@ -2,31 +2,30 @@ package tipos;
 
 public class Escopo {
 
-    public static void main(String[] args) {
-        final TesteDeEscopo escopo = new TesteDeEscopo();
-        System.out.println("O número definido é : " + escopo.defineNumeroMinimo(2));
-    }
+	public static void main(String[] args) {
+		final TesteDeEscopo escopo = new TesteDeEscopo();
+		System.out.println("O número definido é : " + escopo.defineNumeroMinimo(2));
+	}
 
 }
 
 class TesteDeEscopo {
 
-    int numeroMinimo;
-    Integer NumeroMaximo;
+	int numeroMinimo;
+	Integer NumeroMaximo;
 
-    public int defineNumeroMinimo(int numeroMinimo) {
+	public int defineNumeroMinimo(int numeroMinimo) {
 
-        if (numeroMinimo > 10) {
+		if (numeroMinimo > 10) {
 
-            this.numeroMinimo = numeroMinimo;
-        }
+			this.numeroMinimo = numeroMinimo;
+		}
 
-        return this.numeroMinimo;
-    }
+		return this.numeroMinimo;
+	}
 
-    public Integer defineNumeroMaximo(Integer numeroMaximo) {
-        return this.NumeroMaximo;
-    }
-
+	public Integer defineNumeroMaximo(Integer numeroMaximo) {
+		return this.NumeroMaximo;
+	}
 
 }

@@ -9,7 +9,7 @@ public class Ler {
 		System.out.println("Olá Bem Vindo ao nosso site!");
 		System.out.println("Digite seu nome para continuar");
 		nome = leitor.nextLine();
-		System.out.println("Olá, "+ nome);
+		System.out.println("Olá, " + nome);
 		leitor.close();
 	}
 }

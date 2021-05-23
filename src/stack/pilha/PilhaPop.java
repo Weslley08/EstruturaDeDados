@@ -7,20 +7,18 @@ Se a pilha estiver vazia,
  é considerada uma condição de Underflow.
  */
 
-
 public class PilhaPop {
 
-	//Implementando a classe Pilha Pop.
+	// Implementando a classe Pilha Pop.
 	int pop(int[] pilha, int top, int MAX) {
-		
-		if(top < 0) {
+
+		if (top < 0) {
 			System.out.println("Stack Underflow");
 			return 0;
-		}
-			else {
-				int x = pilha[top--];
-				return x;
-				
+		} else {
+			int x = pilha[top--];
+			return x;
+
 		}
 	}
 }

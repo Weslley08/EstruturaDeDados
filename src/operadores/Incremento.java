@@ -2,15 +2,15 @@ package operadores;
 
 public class Incremento {
 
-  public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    int numero = 1;
+		int numero = 1;
 
-    System.out.println(++numero);
+		System.out.println(++numero);
 
-    int variavel = 10;
+		int variavel = 10;
 
-    System.out.println(variavel--);
-    System.out.println(variavel);
-  }
+		System.out.println(variavel--);
+		System.out.println(variavel);
+	}
 }

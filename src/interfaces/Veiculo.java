@@ -2,16 +2,16 @@ package interfaces;
 
 public interface Veiculo {
 
-    String registro();
+	String registro();
 
-    default void ligar() {
+	default void ligar() {
 
-        System.out.println("Ligando o veículo!");
-    }
+		System.out.println("Ligando o veículo!");
+	}
 
-    //void desligar();
+	// void desligar();
 
-    /*default void desligar() {
-        System.out.println("Desligando o veículo!");
-    }*/
+	/*
+	 * default void desligar() { System.out.println("Desligando o veículo!"); }
+	 */
 }

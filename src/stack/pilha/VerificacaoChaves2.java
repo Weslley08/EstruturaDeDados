@@ -3,35 +3,34 @@ package stack.pilha;
 import java.util.Stack;
 
 public class VerificacaoChaves2 {
-	
-	 static boolean VerificacaoChaves(int x)  {
+
+	static boolean VerificacaoChaves(int x) {
 		Stack<String> stack = new Stack<>();
-		
-		if (stack.isEmpty()) 
+
+		if (stack.isEmpty())
 			return false;
 		String check;
 		switch (x) {
 		case ')':
 			check = stack.pop();
-			if (check == "{" || check == "[") 
+			if (check == "{" || check == "[")
 				return false;
-		break;	
-		
+			break;
+
 		case ']':
 			check = stack.pop();
-			if (check == "(" || check == "{") 
+			if (check == "(" || check == "{")
 				return false;
-		break;	
-		
+			break;
+
 		case '}':
 			check = stack.pop();
-			if (check == "(" || check == "[") 
+			if (check == "(" || check == "[")
 				return false;
-		break;	
-		
-		
+			break;
+
 		}
 		return (stack.isEmpty());
-	
+
 	}
 }

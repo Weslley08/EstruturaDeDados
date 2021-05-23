@@ -2,14 +2,14 @@ package interfaces;
 
 public class Gol implements Carro {
 
-    @Override
-    public String marca() {
+	@Override
+	public String marca() {
 
-        return "Volkswagen";
-    }
+		return "Volkswagen";
+	}
 
-    @Override
-    public Double valor() {
-        return null;
-    }
+	@Override
+	public Double valor() {
+		return null;
+	}
 }

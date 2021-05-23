@@ -5,7 +5,7 @@ import java.util.Stack;
 public class testeStack1 {
 
 	public static void main(String[] args) {
-		
+
 		// Instanciando Stack
 		Stack<Integer> stack = new Stack<Integer>();
 		stack.push(10);

@@ -2,19 +2,18 @@ package tipos;
 
 public class NaoPrimitivos {
 	@SuppressWarnings("unused")
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        String texto = "Meu texto para apresentação"; //SequÃªncia de caracteres
+		String texto = "Meu texto para apresentação"; // SequÃªncia de caracteres
 
-        Void v; //Tipo válido
+		Void v; // Tipo válido
 
-        Object o = new Object();
+		Object o = new Object();
 
-        Number numero = Integer.valueOf(100);
-        
-        numero.toString();
-    
-    
-    }
+		Number numero = Integer.valueOf(100);
+
+		numero.toString();
+
+	}
 
 }

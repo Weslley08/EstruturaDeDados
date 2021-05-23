@@ -1,18 +1,18 @@
 package interfaces;
 
-public interface Carro extends Automovel{
+public interface Carro extends Automovel {
 
-    String marca();
+	String marca();
 
-    Double valor();
+	Double valor();
 
-    default void ligar() {
+	default void ligar() {
 
-        System.out.println("Ligando o carro!");
-    }
+		System.out.println("Ligando o carro!");
+	}
 
-    default String codigoRenavan() {
-        return "6533jijiio";
-    }
+	default String codigoRenavan() {
+		return "6533jijiio";
+	}
 
 }

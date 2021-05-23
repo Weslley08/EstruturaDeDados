@@ -2,10 +2,10 @@ package estrutura.de.decisao;
 
 public class switch1 {
 	public static void main(String[] args) {
-		
+
 		int dia = 1;
 		System.out.println("Qual número você quer saber o correspondente na semana");
-		
+
 		switch (dia) {
 		case 1:
 			System.out.println("Hoje é Domingo!");

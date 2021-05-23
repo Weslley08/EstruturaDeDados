@@ -1,9 +1,7 @@
 package enums;
 
-public enum  TipoVeiculo {
+public enum TipoVeiculo {
 
-    TERRESTRE,
-    AQUATICO,
-    AEREO
+	TERRESTRE, AQUATICO, AEREO
 
 }
